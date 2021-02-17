@@ -1,0 +1,58 @@
+{
+    "name": "heimseiten/contao-lightweight-website-essentials-bundle",
+    "description": "lightweight website essentials",
+    "keywords": [
+        "slider",
+        "lightbox"
+    ],
+    "type": "contao-bundle",
+    "license": "GPL-3.0-or-later",
+    "authors": [
+        {
+            "name": "heimseiten.de - Webdesign aus Köln",
+            "email": "info@heimseiten.de",
+            "homepage": "https://www.heimseiten.de",
+            "role": "Developer"
+        }
+    ],
+    "support": {
+        "issues": "https://github.com/heimseiten/contao-lightweight-website-essentials-bundle/issues",
+        "source": "https://github.com/heimseiten/contao-lightweight-website-essentials-bundle"
+    },
+    "require": {
+        "contao/core-bundle": "^4.9",
+        "heimseiten/contao-dark-mode-backend-bundle": "*",
+        "heimseiten/contao-sticky-footer-backend-bundle": "*",
+        "heimseiten/contao-page-teaser-bundle": "*",
+        "heimseiten/contao-scroll-to-error-bundle": "*",
+        "heimseiten/contao-universal-toggler-bundle": "*",
+        "heimseiten/contao-tiny-slider-bundle": "*",
+        "heimseiten/contao-lightgallery-js-bundle": "*",
+        "heimseiten/contao-inviewport-bundle": "*"
+
+    },
+    "require-dev": {
+        "contao/manager-plugin": "^2.3",
+        "contao/test-case": "^4.0",
+        "phpunit/phpunit": "^8.4",
+        "symfony/http-client": "4.4.*",
+        "symfony/phpunit-bridge": "4.4.*"
+    },
+    "autoload": {
+        "psr-4": {
+            "Heimseiten\\ContaoLightweightWebsiteEssentialsBundle\\": "src/"
+        },
+        "classmap": [
+            "src/Resources/contao"
+        ],
+        "exclude-from-classmap": [
+            "src/Resources/contao/config",
+            "src/Resources/contao/dca",
+            "src/Resources/contao/languages",
+            "src/Resources/contao/templates"
+        ]
+    },
+    "extra": {
+        "contao-manager-plugin": "Heimseiten\\ContaoLightweightWebsiteEssentialsBundle\\ContaoManager\\Plugin"
+    }
+}
