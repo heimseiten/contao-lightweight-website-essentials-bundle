@@ -20,15 +20,13 @@
         "source": "https://github.com/heimseiten/contao-lightweight-website-essentials-bundle"
     },
     "require": {
-        "contao/core-bundle": "^4.9",
-        "heimseiten/contao-dark-mode-backend-bundle": "*",
-        "heimseiten/contao-sticky-footer-backend-bundle": "*",
-        "heimseiten/contao-page-teaser-bundle": "*",
-        "heimseiten/contao-scroll-to-error-bundle": "*",
-        "heimseiten/contao-universal-toggler-bundle": "*",
-        "heimseiten/contao-tiny-slider-bundle": "*",
-        "heimseiten/contao-lightgallery-js-bundle": "*",
-        "heimseiten/contao-inviewport-bundle": "*"
+        "contao/core-bundle": "^5.3",
+        "heimseiten/contao-custom-backend-settings-bundle": "^2.0",
+        "heimseiten/contao-custom-contao-bundle": "^0.0",
+        "heimseiten/contao-form-label-mover-bundle": "^1.0",
+        "heimseiten/contao-inviewport-bundle": "^3.0",
+        "heimseiten/contao-mobile-navigation-bundle": "^3.1",
+        "heimseiten/contao-text-image-positioning-bundle": "^2.0"
 
     },
     "require-dev": {
