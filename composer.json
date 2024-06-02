@@ -22,7 +22,7 @@
     "require": {
         "contao/core-bundle": "^5.3",
         "heimseiten/contao-custom-backend-settings-bundle": "^2.0",
-        "heimseiten/contao-custom-contao-bundle": "^0.0",
+        "heimseiten/contao-custom-contao-bundle": "^1.0",
         "heimseiten/contao-form-label-mover-bundle": "^1.0",
         "heimseiten/contao-inviewport-bundle": "^3.0",
         "heimseiten/contao-mobile-navigation-bundle": "^3.1",
